@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pizza.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/pizza.png" type="image/x-icon">
+</head>
+<body>
+    <div class="main">
+        <div class="logo">
+            <div class="photo">
+                <img src="img/pizza.png">
+        </div>
+            <h1 class="pizza">pizza</h1>
+            <div class="dot"></div>
+            <div class="com">com</div>
+        </div>
+        <nav>
+            <div class="toggle">
+                <img src="img/hamburger.png" alt="">
+            </div>
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">menu</a></li>
+                <li><a href="#">discounts</a></li>
+                <li><a href="#">contact me</a></li>
+            </ul>
+            
+        </nav>
+    </div>
+                <div class="content">
+                    <h1 class="heading">Discover Your <span>Perfect</span> Pizza</h1>
+                    <p class="subheading">Fresh Ingredients, Bold <span>Flavors</span>, Unforgettable <span>Taste</span> .</p>
+                    <div class="button">
+                        <button>order now </button>
+                        
+                    </div>
+                    <div class="gif-main">
+                        <img src="img/pizza-cheese-pizza.gif" class="gif">
+                    </div>
+                    
+                </div>
+                <script>
+              document.addEventListener("DOMContentLoaded", function() {
+    const navToggle = document.querySelector(".toggle");
+    const navMenu = document.querySelector("nav ul");
+
+    navToggle.addEventListener("click", function() {
+        navMenu.classList.toggle("active");
+    });
+});
+</script>
+</body>
+</html>
