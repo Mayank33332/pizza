@@ -6,7 +6,8 @@
     font-family:"Glory" , sans-serif;
 }
 
-body{
+/* body{
+    background-color:black;
     background-image: url(img/bg.jpg);
     margin: 0;
     padding: 0;
@@ -15,7 +16,7 @@ body{
     background-repeat: no-repeat;
     height: 100vh;
     color: white;
-    text-align: center;
+    text-align: center; */
 
 }
 .main{
